@@ -1,0 +1,240 @@
+.ec-contact-leftside {
+  max-width: 568px;
+  padding-right: 15px;
+  float: left;
+  margin: 0 auto;
+}
+
+.ec-contact-rightside {
+  margin-top: 30px;
+  padding-left: 15px;
+  float: left;
+  width: 100%;
+}
+
+.ec-contact-container {
+  padding: 30px;
+  background-color: #fff;
+  border: 1px solid #ededed;
+  text-align: left;
+}
+.ec-contact-container .ec-contact-form .ec-contact-wrap {
+  width: 100%;
+  padding: 0 15px;
+}
+.ec-contact-container .ec-contact-form .ec-contact-wrap.ec-contact-half {
+  width: 50%;
+}
+.ec-contact-container .ec-contact-form form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  margin: 0 -15px;
+}
+.ec-contact-container .ec-contact-form label {
+  margin-bottom: 9px;
+  color: #444444;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0;
+  line-height: 1;
+}
+.ec-contact-container .ec-contact-form input {
+  background-color: transparent;
+  border: 1px solid #ededed;
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 27px;
+  padding: 0 15px;
+  width: 100%;
+  outline: none;
+}
+.ec-contact-container .ec-contact-form input::-webkit-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form input::-moz-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form input:-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form input::-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form input::placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form input::-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea {
+  background-color: transparent;
+  border: 1px solid #ededed;
+  color: #444444;
+  font-size: 14px;
+  margin-bottom: 27px;
+  padding: 0 15px;
+  width: 100%;
+  outline: none;
+  padding-top: 14px;
+  min-height: 150px;
+}
+.ec-contact-container .ec-contact-form textarea::-webkit-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea::-moz-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea:-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea::-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea::placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form textarea::-ms-input-placeholder {
+  color: #777;
+}
+.ec-contact-container .ec-contact-form .ec-contact-fp label {
+  margin-bottom: 0;
+}
+.ec-contact-container .ec-contact-form .ec-contact-fp label a {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 0px;
+}
+.ec-contact-container .ec-contact-form .ec-rg-select-inner {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 50px;
+  border-radius: 0;
+  border: 1px solid #ededed !important;
+  font-size: 14px;
+  padding: 0;
+  margin-bottom: 27px;
+}
+.ec-contact-container .ec-contact-form .ec-rg-select-inner select {
+  padding: 0 15px;
+}
+.ec-contact-container .ec-contact-form .ec-rg-select-inner::after {
+  content: "\f107";
+  position: absolute;
+  font-family: "EcIcons";
+  top: 0;
+  right: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  pointer-events: none;
+  font-size: 24px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 50px;
+  line-height: 1;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: #777777;
+}
+.ec-contact-container .ec-contact-form .ec-contact-wrap.ec-recaptcha {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ec-contact-container .ec-contact-form .ec-contact-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.ec-contact-container .ec-contact-form .btn {
+  cursor: pointer;
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1;
+  padding: 0 15px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+  outline: none;
+  border-radius: 0px;
+  width: 190px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ec_contact_info {
+  margin-top: 30px;
+  background-color: #fff;
+}
+.ec_contact_info .ec_contact_info_head {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 19px;
+  color: #202b3a;
+  letter-spacing: 0.6px;
+  position: relative;
+}
+
+li.ec-contact-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0;
+  line-height: 26px;
+  border: 0;
+  padding: 0;
+  font-weight: 400;
+  font-size: 14px;
+  color: #777777;
+  margin-bottom: 9px;
+}
+li.ec-contact-item + .ec-contact-item {
+  margin-bottom: 18px;
+}
+li.ec-contact-item:last-child {
+  margin-bottom: 0;
+}
+li.ec-contact-item a {
+  color: #777777;
+}
+li.ec-contact-item span {
+  font-size: 15px;
+  color: #444444;
+  font-weight: 500;
+  min-width: 90px;
+}
+
+.ec-contact-item i {
+  min-width: 20px;
+  font-size: 20px;
+  color: #3474d4;
+  margin-right: 11px;
+}
+
+.ec_map_canvas iframe {
+  overflow: hidden;
+  background: none !important;
+  height: 300px;
+  width: 100%;
+}

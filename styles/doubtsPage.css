@@ -1,0 +1,16 @@
+.terms_condition_page .ec-common-wrapper {
+  padding: 30px;
+  border: 1px solid #ededed;
+  max-width: 1140px;
+  margin: 0 auto;
+  background-color: #fff;
+}
+.terms_condition_page .ec-cms-block p {
+  margin-bottom: 29px;
+}
+.terms_condition_page .ec-cms-block p b {
+  font-weight: 500;
+}
+.terms_condition_page .ec-cms-block:last-child p {
+  margin-bottom: 0;
+}
