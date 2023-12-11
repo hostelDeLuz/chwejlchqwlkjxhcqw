@@ -38,8 +38,9 @@ export default function Financeiro() {
         let pagototal = 0;
         let hospedesinativos = 0;
         checkin?.reverse()?.map((item, index) => {
-            console.log(item)
-            if (item.ativado === '0') {
+            console.log(item);
+            console.log(index);
+            if (item.ativado === '0' && item.datanascimento !== "") {
                 hospedesinativos = hospedesinativos + 1;
                 valortotal = valortotal + parseFloat(item.valorpago)
                 const entrada = new Date(item.entrada);
