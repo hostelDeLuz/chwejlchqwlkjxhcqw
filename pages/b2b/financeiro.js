@@ -37,6 +37,7 @@ export default function Financeiro() {
         let valortotal = 0;
         let pagototal = 0;
         let hospedesinativos = 0;
+        console.log(checkin);
         checkin?.reverse()?.map((item, index) => {
             console.log(item);
              console.log(new Date(item.entrada));
